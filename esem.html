@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>The Amazing Spider-Man 2</title>
+    <meta name="author" content="Victoria Bibiloni Pons">
+    <meta name="description" content="Esta página contiene información sobre la película The Amazing Spider-Man 2">
+    <meta name="date" content="14-10-2026">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      /* Style the header */
+      header {
+        background-color: #666;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+      }
+
+      /* Create two columns/boxes that floats next to each other */
+      nav {
+        float: left;
+        width: 30%;
+        height: 300px; /* only for demonstration, should be removed */
+        background: #ccc;
+        padding: 20px;
+      }
+
+      /* Style the list inside the menu */
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      article {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: #f1f1f1;
+        height: 300px; /* only for demonstration, should be removed */
+      }
+
+      /* Clear floats after the columns */
+      section::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Style the footer */
+      footer {
+        background-color: #777;
+        padding: 10px;
+        text-align: center;
+        color: white;
+      }
+
+      /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+      @media (max-width: 600px) {
+        nav, article {
+          width: 100%;
+          height: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>The Amazing Spider-Man 2</h1>  
+    </header>
+
+    <section id="introduccion">
+      <nav>
+        <ul>
+          <li><a href="#introduccion">Introducción</a></li>
+          <li><a href="#personajes">Personajes principales</a></li>
+            <li><a href="#img_vid">Imágenes y vídeos</a></li>
+        </ul>
+      </nav>
+
+      <article>
+
+        <h2>Introducción</h2>
+        <p>
+          La película <em>The Amazing Spider-Man 2: El poder de Electro</em>, 
+          dirigida por <b>Marc Webb</b>, se estrenó el <mark>17 de abril 
+            de 2014 en España</mark> y el 2 de mayo de 2014 en Estados Unidos.
+        </p>
+            
+        <h3>Sinopsis (FILMAFFINITY)</h3>
+        <p>
+          Peter Parker lleva una vida muy ocupada, compaginando su tiempo entre su papel como Spider-Man,
+          acabando con los malos, y en el instituto con la persona a la que quiere, Gwen. 
+          Peter no ve el momento de graduarse. No ha olvidado la promesa que le hizo al padre de Gwen de protegerla, 
+          manteniéndose lejos de ella, pero es una promesa que simplemente no puede cumplir. Las cosas cambiarán para
+            Peter cuando aparece un nuevo villano, Electro, y un viejo amigo, Harry Osborn, regresa, al tiempo que descubre
+            nuevas pistas sobre su pasado.
+        </p>
+      </article>
+
+          <h3>Datos relevantes</h3>
+          <ul>
+            <li><b>Título original:</b> <em>The Amazing Spider-Man 2</em></li>
+            <li><b>Género:</b> Acción, aventura y ciencia ficción</li>
+            <li><b>Duración:</b> 142 minutos</li>
+            <li><b>Productora:</b> Columbia Pictures y Marvel Entertainment</li>
+            <li><b>Distribución:</b> Sony Pictures</li>
+          </ul>
+
+          <h3>Póster oficial</h3>
+          <img src="https://image.tmdb.org/t/p/original/dGjoPttcbKR5VWg1jQuNFB247KL.jpg" height="250" alt="Póster oficial">
+    </section>
+    
+    
+    <section id="personajes">
+      <h2>Personajes principales</h2>
+      <h3>Reparto principal</h3>
+      <table border="2" style="border-color: black">
+        <thead>
+          <tr>
+            <th>Actor</th>
+            <th>Personaje</th>
+            <th>Foto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Andrew Garfield</td>
+            <td>Peter Parker / Spider-Man</td>
+            <td><img src="https://i.pinimg.com/564x/99/6f/6b/996f6b2aa385b817704866e6c58be21a.jpg" width="200" height="200" alt="Andrew Garfield interpretando a Peter Parker"></td>
+          </tr>
+          <tr>
+            <td>Emma Stone</td>
+            <td>Gwen Stacy</td>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThaVEZ06jefkwNxwC3EOIiDF7otYxH2vMTbFX-AZZnTxEUz3QDlxUE_vc&s=10" width="200" height="200" alt="Emma Stone interpretando a Gwen Stacy"></td>   
+          </tr>
+          <tr>
+            <td>Jamie Foxx</td>
+            <td>Max Dillon / Electro</td>
+            <td><img src="https://i.pinimg.com/736x/df/bc/92/dfbc920050923eee3e383ddd3a0c1e9e.jpg" width="200" height="200" alt="Jamie Foxx interpretando a Electro"></td>
+          </tr>
+          <tr>
+            <td>Dane DeHaan</td>
+            <td>Harry Osborn / Duende Verde</td>
+            <td><img src="https://www.femalefirst.co.uk/image-library/square/500/t/the-amazing-spider-man-2---dane-dehaan.jpg" width="200" height="200" alt="Dane DeHaan interpretando al Duende Verde"></td>
+          </tr>
+          </tbody>
+        </table>
+    </section>
+
+    <section id="img_vid">
+      <h2>Imágenes y vídeos</h2>
+      <h3>Imágenes destacables</h3>
+      <img src="https://cdn.administrace.tv/2023/05/25/hd_169/183c7c926230d06be22eadfeb95b3e72.jpg" width="350" height="197" alt="Spider-Man vs Rhino">
+      <img src="https://cdn.administrace.tv/2023/05/25/hd_169/98cc95a1e5bfa92f89216aab6a72d340.jpg" width="350" height="197" alt="Spider-Man vs Electro">
+      <img src="https://i.pinimg.com/736x/88/44/7d/88447d16b0afff1f6580059dff5efabe.jpg" width="350" height="197" alt="Spider-Man intentando salvar a Gwen">
+      <br>
+      <a href="https://www.imdb.com/title/tt1872181/mediaindex/" target="_blank">Más imágenes sobre la pelicula</a>
+      
+      <h3>Trailer oficial de la pelicula (Español)</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/BQq8z6o3aJk?si=U1nhT91Bj8f5kA4n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <footer>
+      <p>Página hecha por Victoria Bibiloni Pons</p>
+    </footer>
+  </body>
+</html>
